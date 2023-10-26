@@ -1,0 +1,80 @@
+/* ----------Public Style--------------  */ 
+* { 
+    margin:  0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+/* ------------------------------  */ 
+
+.navbar{
+    background-color: black;
+}
+
+.navbar .logo { 
+    float: left;
+
+  
+
+}
+
+.logo img { 
+    width: 60%;
+    padding-top: 7px;
+}
+
+.navbar .list { 
+   
+    float: right;
+ 
+}
+
+.list ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+    
+}
+.list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+   
+}
+
+.portfolio{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  
+}
+
+
+.portfolio-item{
+    float: left;
+    width: 33.33%;
+    padding-right: 10px;
+}
+
+.portfolio img{
+    /* -- Remove space btw images (bottom line) --  */ 
+    display: block;
+     /* -- To saty inside parent --  */ 
+    width: 100%; 
+}
+
